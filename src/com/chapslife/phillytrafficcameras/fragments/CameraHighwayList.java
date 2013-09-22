@@ -42,15 +42,15 @@ public class CameraHighwayList extends ListFragment{
             gridActivity.putExtra(ROAD_ID, "i676");
             getActivity().startActivity(gridActivity);
             break;
-        case 3:
+        case 2:
             gridActivity.putExtra(ROAD_ID, "i76");
             getActivity().startActivity(gridActivity);
             break;
-        case 4:
+        case 3:
             gridActivity.putExtra(ROAD_ID, "i95");
             getActivity().startActivity(gridActivity);
             break;
-        case 5:
+        case 4:
             gridActivity.putExtra(ROAD_ID, "nonhighway");
             getActivity().startActivity(gridActivity);
             break;

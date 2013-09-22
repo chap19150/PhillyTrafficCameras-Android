@@ -139,7 +139,7 @@ public class ClosestCameraFragment extends Fragment implements
         Location loc = mLocationClient.getLastLocation();
 
         if (loc == null) {
-
+          mPenndotApi.getClosestCameras(this, Double.valueOf(39.952473),Double.valueOf(-75.164106));
         } else {
             mPenndotApi.getClosestCameras(this, loc.getLatitude(), loc.getLongitude());
         }
