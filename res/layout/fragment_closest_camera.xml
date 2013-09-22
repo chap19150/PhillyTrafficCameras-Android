@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/wallpaper_grid"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:drawSelectorOnTop="true"
+    android:gravity="fill"
+    android:horizontalSpacing="1dp"
+    android:numColumns="@integer/wallpaper_columns"
+    android:overScrollMode="never"
+    android:requiresFadingEdge="none"
+    android:scrollbars="none"
+    android:stretchMode="columnWidth"
+    android:verticalSpacing="1dp" />
